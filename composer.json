@@ -1,0 +1,16 @@
+{
+    "name": "schiesslea/php-tests-unitaires",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andy Schiessle",
+            "email": "andyschiessle@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    }
+}
