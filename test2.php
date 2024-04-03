@@ -3,6 +3,6 @@
 require_once 'src/fonctions.php';
 
 $prenom = "JEAN";
-$nom = "DUPOND";
+$nom = "DUPONT";
 $identite = getIdentite($prenom, $nom);
 echo $identite;
