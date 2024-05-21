@@ -44,14 +44,8 @@ function transformerPhrase (string $phrase) : string {
     if (empty($phrase)) {
         return "";
     }
-    foreach ($phrase as $mot) {
-        if (str_ends_with('e', $mot)) {
-            $mot .= 'd';
-            .
-        }
-    }
+    $mots = explode(" ", $phrase);
+
 
 }
-
-
 
